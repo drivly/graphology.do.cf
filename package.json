@@ -5,14 +5,14 @@
   "description": "A Graphology implementation using Cloudflare Worker Durable Objects.",
   "repository": "git@github.com:drivly/graphology.do.cf.git",
   "license": "MIT",
-  "dependencies": {
-    "graphology": "^0.24.1"
-  },
   "scripts": {
     "dev": "wrangler dev worker.js",
     "deploy": "wrangler publish worker.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "format": "prettier --write '**/*.{js,css,json,md}'"
+  },
+  "dependencies": {
+    "graphology": "^0.24.1"
   },
   "devDependencies": {
     "jest": "^28.1.3",
