@@ -1,0 +1,12 @@
+name = "graphology-do-cf"
+account_id = "b6641681fe423910342b9ffa1364c76d"
+# route = "graphology.do.cf/*"
+main = "worker.js"
+compatibility_date = "2022-08-23"
+
+[durable_objects]
+bindings = [{name = "GRAPH", class_name = "DataGraph"}]
+
+[[migrations]]
+tag = "v1" # Should be unique for each entry
+new_classes = ["DataGraph"]

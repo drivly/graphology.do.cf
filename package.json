@@ -1,0 +1,9 @@
+{
+  "name": "graphology-do-cf",
+  "version": "1.0.0",
+  "description": "A Graphology implementation using Cloudflare Worker Durable Objects.",
+  "module": "worker.js",
+  "dependencies": {
+    "graphology": "^0.24.1"
+  }
+}
