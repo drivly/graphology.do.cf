@@ -1,6 +1,6 @@
 name = "graphology-do-cf"
 account_id = "b6641681fe423910342b9ffa1364c76d"
-# route = "graphology.do.cf/*"
+route = { pattern = "graphology.do.cf/*", zone_id = "610c7d50a0eb08ba67af06925613f507" }
 main = "worker.js"
 compatibility_date = "2022-08-23"
 
