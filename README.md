@@ -2,6 +2,8 @@
 
 A [Graphology](https://graphology.github.io/) Implementation using Cloudflare Worker Durable Objects.
 
+## API
+
 ```json
 {
     "url": "https://graphology.do.cf/myGraph",
