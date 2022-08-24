@@ -1,13 +1,12 @@
 {
-  "name": "graphology-do-cf",
+  "name": "graphology.do.cf",
   "version": "1.0.0",
   "description": "A Graphology implementation using Cloudflare Worker Durable Objects.",
   "repository": "git@github.com:drivly/graphology.do.cf.git",
   "license": "MIT",
   "module": "worker.js",
   "dependencies": {
-    "graphology": "^0.24.1",
-    "jest": "^28.1.3"
+    "graphology": "^0.24.1"
   },
   "scripts": {
     "dev": "wrangler dev worker.js",
@@ -16,6 +15,7 @@
     "format": "prettier --write '**/*.{js,css,json,md}'"
   },
   "devDependencies": {
+    "jest": "^28.1.3",
     "prettier": "^1.17.0",
     "wrangler": "^0.0.27"
   }
